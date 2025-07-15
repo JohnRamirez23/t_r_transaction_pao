@@ -1,4 +1,3 @@
-
 # 🧪 Proyecto: Pipeline de Datos Escalable y Confiable
 
 ## 🎯 Objetivo
@@ -111,3 +110,15 @@ docker-compose up -d airflow-scheduler
 - Escalar hacia procesamiento distribuido real en clúster
 - Pruebas automatizadas de los módulos Spark
 
+---
+
+## 📦 Nota sobre archivos generados automáticamente
+
+Este repositorio omite ciertos archivos como:
+
+- Archivos `.parquet` intermedios generados por el pipeline
+- Carpetas `__pycache__/` de Python
+- Directorios `.idea/` del entorno de desarrollo
+
+Estos archivos se regeneran automáticamente al ejecutar el DAG `pipeline_datos`, comenzando desde el archivo fuente `Ventas_diarias.csv`.  
+Esto mantiene el repositorio limpio, portable y alineado con buenas prácticas de desarrollo.
