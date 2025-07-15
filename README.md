@@ -116,3 +116,10 @@ Este repositorio omite ciertos archivos como:
 
 Estos archivos se regeneran automáticamente al ejecutar el DAG `pipeline_datos`, comenzando desde el archivo fuente `Ventas_diarias.csv`.  
 Esto mantiene el repositorio limpio, portable y alineado con buenas prácticas de desarrollo.
+
+
+### Resultado final en base de datos (`resumen_ventas`)
+
+A continuación se muestra la tabla resultante luego de ejecutar todo el pipeline. Esta tabla es generada por la etapa `load.py` a partir de los datos transformados:
+
+![Resultado en resumen_ventas](evidencia_ejecucion/resumen_ventas_resultado.png)
