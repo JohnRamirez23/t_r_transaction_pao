@@ -1,3 +1,4 @@
+
 # 🧪 Proyecto: Pipeline de Datos Escalable y Confiable
 
 ## 🎯 Objetivo
@@ -10,9 +11,7 @@ Diseñar un pipeline ETL usando Spark y Airflow para procesar datos de ventas di
 
 Este proyecto está alojado en GitHub:
 
-> 🔗 https://github.com/tu_usuario/t_r_transaction_pao
-
-> *(Reemplaza con tu URL real si aún no lo has subido)*
+> 🔗 https://github.com/JohnRamirez23/t_r_transaction_pao
 
 ---
 
@@ -30,25 +29,13 @@ Este proyecto está alojado en GitHub:
 
 ```
 t_r_transaction_pao/
-│
 ├── dags/
-│   └── pipeline_dag.py             # DAG principal de Airflow
-│
 ├── scripts/
-│   ├── ingestion.py                # Ingesta de CSV a Spark
-│   ├── cleaning.py                 # Limpieza de datos
-│   ├── transformation.py          # Transformaciones (agregación de ventas)
-│   └── load.py                     # Carga final en base de datos
-│
 ├── data/
-│   ├── Ventas_diarias.csv          # Datos fuente
-│   └── intermediate_*.parquet      # Datos procesados en etapas
-│
 ├── docker/
-│   ├── Dockerfile
-│   └── docker-compose.yml
-│
-└── requirements.txt
+├── evidencia_ejecucion/
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -58,7 +45,7 @@ t_r_transaction_pao/
 ### 1. Clona este repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/t_r_transaction_pao.git
+git clone https://github.com/JohnRamirez23/t_r_transaction_pao.git
 cd t_r_transaction_pao/docker
 ```
 
@@ -96,19 +83,26 @@ docker-compose up -d airflow-scheduler
 
 ## 📊 Resultados de Ejecución
 
-- **Registros ingeridos:** Depende del archivo CSV (`Ventas_diarias.csv`)
+- **Registros ingeridos:** Dependen del archivo CSV (`Ventas_diarias.csv`)
 - **Registros luego de limpieza:** Filtrados por datos nulos o inconsistentes
 - **Registros transformados:** Totales de ventas por día
-- **Logs:** Visibles en la interfaz de Airflow
+- **Logs:** Visibles en Airflow y almacenados en MySQL
 
 ---
 
-## 🛠️ Mejoras Futuras
+## 📷 Evidencia de Ejecución
 
-- Agregar alertas automáticas por email/Slack (simuladas o reales)
-- Validaciones estadísticas y checks de calidad de datos
-- Escalar hacia procesamiento distribuido real en clúster
-- Pruebas automatizadas de los módulos Spark
+### DAG ejecutado en Airflow
+
+La siguiente imagen muestra el DAG `pipeline_datos` orquestado correctamente, con todas las tareas completadas con éxito (`success`):
+
+![DAG ejecutado](evidencia_ejecucion/dag_pipeline.png)
+
+### Logs desde MySQL
+
+También se incluye una captura de los registros de ejecución guardados en la base de datos `ventas_db` (tabla `log`), que muestran las tareas realizadas por Airflow:
+
+![Logs desde MySQL](evidencia_ejecucion/logs_mysql_workbench.png)
 
 ---
 
