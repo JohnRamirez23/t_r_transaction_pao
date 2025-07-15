@@ -1,0 +1,67 @@
+version: "3"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ventas_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: airflow-custom:latest
+    container_name: airflow-webserver
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      AIRFLOW__WEBSERVER__SECRET_KEY: your_super_secret_key
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: mysql+mysqlconnector://user:password@mysql:3306/ventas_db
+      PYTHONPATH: /opt/airflow
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ../scripts:/opt/airflow/scripts
+      - ../data:/opt/airflow/data
+    ports:
+      - "8080:8080"
+    command:
+      - bash
+      - -c
+      - |
+        airflow db init &&
+        airflow users create --username admin --password admin --firstname admin --lastname admin --role Admin --email admin@example.com &&
+        airflow webserver
+
+  airflow-scheduler:
+    image: airflow-custom:latest
+    container_name: airflow-scheduler
+    depends_on:
+      - airflow-webserver
+    environment:
+      AIRFLOW__WEBSERVER__SECRET_KEY: your_super_secret_key
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: mysql+mysqlconnector://user:password@mysql:3306/ventas_db
+      PYTHONPATH: /opt/airflow
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ../scripts:/opt/airflow/scripts
+      - ../data:/opt/airflow/data
+    command:
+      - bash
+      - -c
+      - |
+        airflow db init &&
+        airflow scheduler
+
+volumes:
+  mysql_data:

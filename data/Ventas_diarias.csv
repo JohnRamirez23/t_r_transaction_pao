@@ -1,0 +1,104 @@
+fecha_transaccion,id_venta,id_tienda,canal,id_producto,nombre_producto,categoria,precio_unitario,cantidad,total_venta,moneda,cliente_id,medio_pago
+2025-07-09,TX123456,001,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,2,240.0,PEN,CL123456,tarjeta_credito
+2025-07-09,TX123457,002,ecommerce,PROD008,Proteína Whey vainilla,Suplementos,180.0,1,180.0,PEN,CL123457,transferencia
+2025-07-09,TX123458,001,tienda_fisica,PROD004,Cinturón de levantamiento,Accesorios,80.0,1,80.0,PEN,CL123458,efectivo
+2025-07-09,TX200000,001,tienda_fisica,PROD007,Omega 3,Salud,90.0,3,270.0,PEN,CL743030,tarjeta_credito
+2025-07-09,TX200001,002,tienda_fisica,PROD009,Barra energética,Snacks,15.0,3,45.0,PEN,CL578017,efectivo
+2025-07-09,TX200002,002,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,4,740.0,PEN,CL351776,tarjeta_credito
+2025-07-09,TX200003,002,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,2,240.0,PEN,CL963316,tarjeta_credito
+2025-07-09,TX200004,003,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,1,70.0,PEN,CL593310,transferencia
+2025-07-09,TX200005,003,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,1,120.0,PEN,CL655583,efectivo
+2025-07-09,TX200006,003,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,5,225.0,PEN,CL578651,yape
+2025-07-09,TX200007,003,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,2,240.0,PEN,CL402123,tarjeta_credito
+2025-07-09,TX200008,002,ecommerce,PROD002,Proteína Whey chocolate,Suplementos,185.0,4,740.0,PEN,CL586141,tarjeta_credito
+2025-07-09,TX200009,001,ecommerce,PROD008,Proteína Whey vainilla,Suplementos,180.0,2,360.0,PEN,CL144448,plin
+2025-07-09,TX200010,003,ecommerce,PROD009,Barra energética,Snacks,15.0,5,75.0,PEN,CL975691,yape
+2025-07-09,TX200011,001,tienda_fisica,PROD005,Pre-entreno Explosivo,Suplementos,110.0,2,220.0,PEN,CL546784,plin
+2025-07-09,TX200012,003,tienda_fisica,PROD007,Omega 3,Salud,90.0,2,180.0,PEN,CL622625,yape
+2025-07-09,TX200013,003,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,4,480.0,PEN,CL197112,transferencia
+2025-07-09,TX200014,001,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,4,280.0,PEN,CL820181,transferencia
+2025-07-09,TX200015,001,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,2,140.0,PEN,CL965782,efectivo
+2025-07-09,TX200016,003,ecommerce,PROD008,Proteína Whey vainilla,Suplementos,180.0,2,360.0,PEN,CL521001,yape
+2025-07-09,TX200017,002,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,5,925.0,PEN,CL846721,tarjeta_credito
+2025-07-09,TX200018,001,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,4,740.0,PEN,CL283753,efectivo
+2025-07-09,TX200019,003,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,1,120.0,PEN,CL609854,transferencia
+2025-07-09,TX200020,003,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,3,555.0,PEN,CL345441,plin
+2025-07-09,TX200021,001,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,3,135.0,PEN,CL899271,tarjeta_credito
+2025-07-09,TX200022,002,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,2,240.0,PEN,CL430649,efectivo
+2025-07-09,TX200023,003,ecommerce,PROD004,Cinturón de levantamiento,Accesorios,80.0,4,320.0,PEN,CL390054,yape
+2025-07-09,TX200024,002,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,3,555.0,PEN,CL989995,efectivo
+2025-07-09,TX200025,003,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,4,480.0,PEN,CL160935,tarjeta_credito
+2025-07-09,TX200026,001,ecommerce,PROD007,Omega 3,Salud,90.0,1,90.0,PEN,CL800645,efectivo
+2025-07-09,TX200027,003,tienda_fisica,PROD005,Pre-entreno Explosivo,Suplementos,110.0,3,330.0,PEN,CL596993,plin
+2025-07-09,TX200028,002,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,5,600.0,PEN,CL932899,tarjeta_credito
+2025-07-09,TX200029,003,ecommerce,PROD002,Proteína Whey chocolate,Suplementos,185.0,4,740.0,PEN,CL526229,tarjeta_credito
+2025-07-09,TX200030,001,ecommerce,PROD006,Botella shaker,Accesorios,35.0,3,105.0,PEN,CL841825,transferencia
+2025-07-09,TX200031,001,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,4,740.0,PEN,CL195963,efectivo
+2025-07-09,TX200032,002,ecommerce,PROD006,Botella shaker,Accesorios,35.0,1,35.0,PEN,CL835019,tarjeta_credito
+2025-07-09,TX200033,003,tienda_fisica,PROD009,Barra energética,Snacks,15.0,3,45.0,PEN,CL971227,transferencia
+2025-07-09,TX200034,001,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,5,350.0,PEN,CL755753,efectivo
+2025-07-09,TX200035,003,tienda_fisica,PROD003,Guantes de gimnasio,Accesorios,45.0,4,180.0,PEN,CL281949,efectivo
+2025-07-09,TX200036,003,tienda_fisica,PROD008,Proteína Whey vainilla,Suplementos,180.0,3,540.0,PEN,CL967770,tarjeta_credito
+2025-07-09,TX200037,001,tienda_fisica,PROD006,Botella shaker,Accesorios,35.0,1,35.0,PEN,CL140348,plin
+2025-07-09,TX200038,002,tienda_fisica,PROD003,Guantes de gimnasio,Accesorios,45.0,2,90.0,PEN,CL944247,tarjeta_credito
+2025-07-09,TX200039,001,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,4,280.0,PEN,CL376473,transferencia
+2025-07-09,TX200040,002,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,3,210.0,PEN,CL102587,tarjeta_credito
+2025-07-09,TX200041,002,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,4,180.0,PEN,CL285376,plin
+2025-07-09,TX200042,001,ecommerce,PROD008,Proteína Whey vainilla,Suplementos,180.0,1,180.0,PEN,CL862669,yape
+2025-07-09,TX200043,002,tienda_fisica,PROD005,Pre-entreno Explosivo,Suplementos,110.0,4,440.0,PEN,CL376024,tarjeta_credito
+2025-07-09,TX200044,001,tienda_fisica,PROD008,Proteína Whey vainilla,Suplementos,180.0,4,720.0,PEN,CL794389,plin
+2025-07-09,TX200045,001,ecommerce,PROD009,Barra energética,Snacks,15.0,3,45.0,PEN,CL977287,yape
+2025-07-09,TX200046,003,ecommerce,PROD005,Pre-entreno Explosivo,Suplementos,110.0,1,110.0,PEN,CL285531,yape
+2025-07-09,TX200047,003,tienda_fisica,PROD007,Omega 3,Salud,90.0,2,180.0,PEN,CL622118,yape
+2025-07-09,TX200048,001,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,1,120.0,PEN,CL917884,yape
+2025-07-09,TX200049,002,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,1,45.0,PEN,CL357724,efectivo
+2025-07-09,TX200050,003,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,5,925.0,PEN,CL527631,transferencia
+2025-07-09,TX200051,001,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,3,360.0,PEN,CL692853,plin
+2025-07-09,TX200052,003,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,1,120.0,PEN,CL847125,yape
+2025-07-09,TX200053,002,tienda_fisica,PROD008,Proteína Whey vainilla,Suplementos,180.0,5,900.0,PEN,CL650710,tarjeta_credito
+2025-07-09,TX200054,002,ecommerce,PROD007,Omega 3,Salud,90.0,1,90.0,PEN,CL342507,tarjeta_credito
+2025-07-09,TX200055,003,ecommerce,PROD001,Creatina Monohidratada,Suplementos,120.0,2,240.0,PEN,CL728729,yape
+2025-07-09,TX200056,001,ecommerce,PROD004,Cinturón de levantamiento,Accesorios,80.0,3,240.0,PEN,CL660390,tarjeta_credito
+2025-07-09,TX200057,003,tienda_fisica,PROD006,Botella shaker,Accesorios,35.0,2,70.0,PEN,CL495856,plin
+2025-07-09,TX200058,003,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,3,210.0,PEN,CL610333,transferencia
+2025-07-09,TX200059,001,tienda_fisica,PROD003,Guantes de gimnasio,Accesorios,45.0,1,45.0,PEN,CL166783,tarjeta_credito
+2025-07-09,TX200060,002,ecommerce,PROD004,Cinturón de levantamiento,Accesorios,80.0,5,400.0,PEN,CL128739,yape
+2025-07-09,TX200061,003,tienda_fisica,PROD005,Pre-entreno Explosivo,Suplementos,110.0,3,330.0,PEN,CL902627,tarjeta_credito
+2025-07-09,TX200062,002,ecommerce,PROD002,Proteína Whey chocolate,Suplementos,185.0,4,740.0,PEN,CL769229,transferencia
+2025-07-09,TX200063,002,tienda_fisica,PROD006,Botella shaker,Accesorios,35.0,1,35.0,PEN,CL767896,efectivo
+2025-07-09,TX200064,002,tienda_fisica,PROD002,Proteína Whey chocolate,Suplementos,185.0,1,185.0,PEN,CL688960,plin
+2025-07-09,TX200065,002,tienda_fisica,PROD006,Botella shaker,Accesorios,35.0,1,35.0,PEN,CL385236,plin
+2025-07-09,TX200066,001,tienda_fisica,PROD008,Proteína Whey vainilla,Suplementos,180.0,1,180.0,PEN,CL475293,transferencia
+2025-07-09,TX200067,003,tienda_fisica,PROD008,Proteína Whey vainilla,Suplementos,180.0,4,720.0,PEN,CL341249,yape
+2025-07-09,TX200068,001,tienda_fisica,PROD009,Barra energética,Snacks,15.0,5,75.0,PEN,CL124289,plin
+2025-07-09,TX200069,002,ecommerce,PROD002,Proteína Whey chocolate,Suplementos,185.0,2,370.0,PEN,CL367461,plin
+2025-07-09,TX200070,001,tienda_fisica,PROD006,Botella shaker,Accesorios,35.0,5,175.0,PEN,CL770785,tarjeta_credito
+2025-07-09,TX200071,002,ecommerce,PROD005,Pre-entreno Explosivo,Suplementos,110.0,2,220.0,PEN,CL504006,transferencia
+2025-07-09,TX200072,003,ecommerce,PROD007,Omega 3,Salud,90.0,4,360.0,PEN,CL656222,plin
+2025-07-09,TX200073,001,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,4,280.0,PEN,CL402862,efectivo
+2025-07-09,TX200074,001,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,4,480.0,PEN,CL801096,yape
+2025-07-09,TX200075,001,ecommerce,PROD005,Pre-entreno Explosivo,Suplementos,110.0,5,550.0,PEN,CL110008,efectivo
+2025-07-09,TX200076,001,tienda_fisica,PROD007,Omega 3,Salud,90.0,4,360.0,PEN,CL655046,efectivo
+2025-07-09,TX200077,003,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,2,140.0,PEN,CL489717,yape
+2025-07-09,TX200078,002,tienda_fisica,PROD003,Guantes de gimnasio,Accesorios,45.0,3,135.0,PEN,CL396571,plin
+2025-07-09,TX200079,001,tienda_fisica,PROD007,Omega 3,Salud,90.0,1,90.0,PEN,CL640823,plin
+2025-07-09,TX200080,002,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,5,350.0,PEN,CL573646,plin
+2025-07-09,TX200081,003,tienda_fisica,PROD007,Omega 3,Salud,90.0,5,450.0,PEN,CL941148,efectivo
+2025-07-09,TX200082,003,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,5,350.0,PEN,CL577068,plin
+2025-07-09,TX200083,001,tienda_fisica,PROD006,Botella shaker,Accesorios,35.0,3,105.0,PEN,CL498294,plin
+2025-07-09,TX200084,001,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,4,180.0,PEN,CL126184,yape
+2025-07-09,TX200085,003,tienda_fisica,PROD003,Guantes de gimnasio,Accesorios,45.0,4,180.0,PEN,CL325177,yape
+2025-07-09,TX200086,003,tienda_fisica,PROD003,Guantes de gimnasio,Accesorios,45.0,1,45.0,PEN,CL687370,efectivo
+2025-07-09,TX200087,002,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,5,350.0,PEN,CL625604,tarjeta_credito
+2025-07-09,TX200088,003,tienda_fisica,PROD007,Omega 3,Salud,90.0,5,450.0,PEN,CL611552,yape
+2025-07-09,TX200089,001,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,1,45.0,PEN,CL428892,tarjeta_credito
+2025-07-09,TX200090,002,ecommerce,PROD003,Guantes de gimnasio,Accesorios,45.0,1,45.0,PEN,CL332020,yape
+2025-07-09,TX200091,001,ecommerce,PROD006,Botella shaker,Accesorios,35.0,3,105.0,PEN,CL746712,tarjeta_credito
+2025-07-09,TX200092,001,tienda_fisica,PROD001,Creatina Monohidratada,Suplementos,120.0,3,360.0,PEN,CL371427,tarjeta_credito
+2025-07-09,TX200093,003,ecommerce,PROD008,Proteína Whey vainilla,Suplementos,180.0,3,540.0,PEN,CL804126,transferencia
+2025-07-09,TX200094,002,ecommerce,PROD002,Proteína Whey chocolate,Suplementos,185.0,1,185.0,PEN,CL997309,transferencia
+2025-07-09,TX200095,001,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,1,70.0,PEN,CL321896,tarjeta_credito
+2025-07-09,TX200096,001,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,2,140.0,PEN,CL486212,yape
+2025-07-09,TX200097,003,tienda_fisica,PROD010,Rodillera compresiva,Accesorios,70.0,1,70.0,PEN,CL118039,efectivo
+2025-07-09,TX200098,003,ecommerce,PROD010,Rodillera compresiva,Accesorios,70.0,1,70.0,PEN,CL423616,tarjeta_credito
+2025-07-09,TX200099,002,ecommerce,PROD004,Cinturón de levantamiento,Accesorios,80.0,3,240.0,PEN,CL900078,plin
