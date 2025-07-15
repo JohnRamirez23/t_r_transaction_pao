@@ -1,0 +1,38 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow logs
+logs/
+airflow_logs/
+
+# Spark output files
+*.parquet
+*.crc
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+
+# Mac/Linux hidden files
+.DS_Store
+Thumbs.db
+
+# System files
+*.iml
+
+# Data artifacts
+data/intermediate_*/ 
